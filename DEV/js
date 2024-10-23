@@ -1,0 +1,97 @@
+jab bhi function call hota hai toh uska alag execution phase banta hai 
+GEC ke andar 2 phase : 
+MCP
+CEP
+
+callstack ke andar sab hota hai GEC , function 
+Once function execute ho jaata hai toh uska execution context DESTROY ho jaata hai 
+
+
+Higher Order function -- 1.ek function hai jo doosre fuction ko as argument le rha hai 
+2. entire function is being return from some other function then other function is called higher order function 
+return krna jaroori hai !! 
+
+Callback function -- agar usse call nhi karenge toh wo callback func nhi hoga 
+ek function jo doosre function ke andar as an argument ja rha hai and accepted as parameter by that function  and is called is CB fun.
+
+agar cep ko mcp mein particular variable ya function nhi milta hai (in local memory) toh wo apne parent ke paas check krta hai i.e in its lexical environment
+
+Closures - whenever we return a function the function is not returned alone 
+wo apne lexical scope ko bhi leke jaata hai 
+saare dependent variable uske sangh bind ho jaate hai .
+
+Use-
+Security 
+
+Prototpe: object , acts like fallback source.
+har object ka prototype is Object.prototype is valid for hardcoded object
+constructor function prototype is valid for jo object jo constructor se bna hai 
+
+
+Constructor function -- always  called using "new" keyword
+it's role is to create object 
+
+
+
+"this" keyword - can be called in 5 ways 
+"this" always depend on how it is being "called" upon ☑️
+hamesha object ko point karega ❎
+
+1. direct(functional) calling -- window object ko point karega 
+2. object calling -- object ko point karega 
+3. constructor calling 
+4. indirect calling -- call , apply , bind 
+yeh teeno is used to change the reference of the object 
+
+call mutiple arguments le skta hai i.e other object and more things 
+
+5.arrow function -- iska "this" is dependent on parent ka "this" 
+
+
+Classes --> constructor function ka replicate but syntactical-sugars
+constructor mein we write function inside but in class jo constructor banta hai usme function bhar likhte hai constructor ke (refer code in classes folder)
+
+Super keyword jab bhi call kro toh order same hi rakhna hai argumnets ka 
+
+
+web api's part of browser 
+toh setTimeout,setInterval , console , fetch etc ..  wagera is part of web browser(js ka nhi hai )
+
+(refer images for  diagram )
+event loop -- check callstack empty hai ki nhi 
+will check till callstack is not empty
+as soon as callstack is empty callback queue se function uthake callback stack mein daal dega 
+callstack empty hona is imp. nhi toh code fat jaayega 
+
+imp - event loop and callback queue 
+
+
+direct onClick pe ek hi task hoga 
+addEventListener -- ek event ke hone pe mutiple task kr skta hoon (multiple functions trigger ho skte hai ) 
+
+
+--------------- Imp for interview----------------------------- 
+capturing and bubbling (refer  images folder )
+el mien true ke case mein -- capturing (upar se niche )
+el mein false ke case mein --bubbling  (niche se upar )
+
+
+------------Promises-----------------
+1. constructor function 
+2. syntax --  let obj = new Promise (function(resolve,reject){}) 
+>ek callback function lega having 2 arguments resolve,reject;
+
+Promise mein then ki chaining ho jaati hai -- to overcome that we have/use async await !!
+
+
+
+--------Fetch----------------
+webapi ka part hai 
+fetch returns a promise 
+returns partial/meta data , pahali baar mein --- saara data ek baar mein nhi aata  
+
+.json ()-- it also return a promise and is used to get all data  
+
+async differ 
+
+

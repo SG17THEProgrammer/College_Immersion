@@ -1,0 +1,45 @@
+type script is compile time ; used for type safety 
+zod is runtime 
+
+tsc -v  ---> to check version 
+tsc --init  or  npx tsc --init  ---> tsconfig.json file aa jaayengi yeh karne se 
+npx tsc --init  ---> initilize ho jaayega 
+tsc -b  ---> to save file 
+
+
+ts is a transpiled(transfer and compiling) language 
+transpile hoyi js mein + compile hoyi
+
+
+
+
+Q.What is  interface ? 
+
+
+
+Q.why it is used ? 
+>object hai aur hume usse type dena hai toh interface come into play 
+>when we are working with classes 
+
+same entity -- extends 
+diff. entity -- implement 
+
+Interfaces can be extended !!! 
+
+Q.difference between interface and type ?
+in classes what should be use ?
+
+>type allows union(or) and intersection (and) waali cheezein
+>inteface allows only intersection using extends but not union 
+
+>type ko hum direct value assign kr skte hai   
+>for interface ek object is always needed 
+
+type and interface ko mix match kr skte hai 
+
+
+>class ke saath interface use krte hai kyonki type mein "|" (or) aata hai jo error deta hai 
+
+
+Enums and generics 
+

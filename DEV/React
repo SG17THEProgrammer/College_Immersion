@@ -1,0 +1,53 @@
+2 types of engines -- 1)layout engine  -- html css load hoti hai 
+                      2)JS engine 
+
+html css load hoti hai , uske baad js aati hai 
+toh uske beech ka time is called hydration process \
+
+>async and differ
+>JS only understood by browser 
+
+What is babel -- it is a library / compiler (transpiler (transfer and compile))
+(jsx ko convert krta hai into pure js so that browser can understand it )
+
+bhot saari js files ko ek mein karne ke liye we use bundles 
+Some bundlers are :
+>webpacks(unwanted waste code -- worst hai )
+>vite
+>parcel
+
+2 components
+1-class based - stateful  (dynamic changes)
+2-functional - stateless (static changes) 
+
+
+Hooks -- predefined functions 
+with the use of hooks we could make functional components dynamic 
+
+2 types of exports - 
+default - default export kisi bhi naam se import kr skte hai 
+named - for named export we need to destructur it 
+
+make sure ki component ka naam capital mein ho as agar import/render small name se kiya toh unrecognized bolega wo 
+
+props (attributes) -- these are also objects
+
+variables/state can change but the change in it is not re-rendering the components 
+So to overcome it hooks aaye 
+
+yeh dynamic change hai variable/state mein 
+
+
+
+Reconsilation -- process which is working/running behind in the comparison of two DOM's
+compare krne ke baad konsi chiz banegi ya nhi banegi yeh batayega Reconsilation
+
+
+Memo --- memoization (predefined function)
+checks the props if it is changed or not 
+if prop does not change toh no change no rerendering 
+if prop changes toh  change hoa hoga to rerender kro  
+
+
+Batching -- saare updation ke baad 1 baar rerender hoga 
+  

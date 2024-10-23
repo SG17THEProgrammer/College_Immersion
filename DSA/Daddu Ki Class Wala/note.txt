@@ -1,0 +1,33 @@
+Major of these patterns are below :
+Pattern 1: Sliding Window 
+Pattern 9: Two Heaps
+Pattern 2: Two Pointer 
+Pattern 10: Subsets
+Pattern 3: Fast & Slow pointers 
+Pattern 11: Modified Binary Search
+Pattern 4: Merge Intervals 
+Pattern 12: Bitwise XOR
+Pattern 5: Cyclic Sort 
+Pattern 13: Top ‘K’ Elements
+Pattern 6: In-place Reversal of a LinkedList 
+Pattern 14: K-way merge
+Pattern 7: Tree Breadth First Search 
+Pattern 15: 0/1 Knapsack (Dynamic Programming)
+Pattern 8: Depth First Search (DFS) 
+Pattern 16: Topological Sort (Graph)
+
+QUES link -- https://docs.google.com/document/d/1XQ-B9KdZKNgCc8P19qc7xR7FcChAai1UONyocXzEn4g/edit
+
+
+RESOURCE 2  - 
+1- Love Babbar DSA sheet: https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/amp/
+
+2- Leetcode Blind 75 Problems: www.geeksforgeeks.org/dsa-sheet-by-love-babbar/amp/
+
+3- GFG - DBMS last minute notes: www.geeksforgeeks.org/last-minute-notes-dbms/amp/
+
+4- OOPS - GFG notes: www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/amp/
+
+5- Web Development Projects: https://www.interviewbit.com/blog/web-development-projects/?amp=1
+
+
